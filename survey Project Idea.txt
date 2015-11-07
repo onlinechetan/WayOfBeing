@@ -1,0 +1,15 @@
+1.       We need to put a paper and pencil version of a survey (see attached) online as HTML/Code that can be uploaded to a webpage and server.
+
+2.       On that page, the user would read instructions, take the survey, and press “submit”
+
+3.       Upon pressing submit, the survey scores would automatically calculate and plot on a chart.
+
+4.       On the chart the user would see (perhaps with a blue dot) where their score falls.
+
+5.       Also on the chart, the user would see little red dots indicating the scores of everyone else who has ever taken the survey using the same system. We call this “normative data”, and it helps us discern where we are in relation to other people. I want to be able to sort it by ‘country, industry, gender, and age’, which are all questions that will be added to the survey.
+
+6.       Lastly, depending on the quadrant the blue dot falls into (i.e. user’s score), a description would appear beneath the chart which describes their style (there are four styles altogether) and what that means in terms of how they relate to others with different styles. I will provide the text for this.
+
+7.       I would need to be able to access and change questions periodically as we continue to revise and improve the survey.
+
+8.       I would also need to be able to access the server and download data as an excel file so I can crunch some statistics.

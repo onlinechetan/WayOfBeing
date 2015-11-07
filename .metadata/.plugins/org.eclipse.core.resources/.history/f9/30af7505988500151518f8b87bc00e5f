@@ -1,0 +1,30 @@
+<html>
+<head>
+<title>Way of Being!!! </title>
+<style>
+h1 { 
+    display: block;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+</style>
+</head>
+<body>
+	<br>
+	<div style="text-align:center">
+		<h2  font-size: 2em>
+			Welcome to the survey of Way of Being...<br> <br>
+		</h2>
+		<h1>
+		The purpose of this survey is to measure how mindful you have been lately (vs. absentminded) and how much you tend to think about the greater meaning of your life (vs. the "everyday"). This inventory consists of 18 statements about your recent experiences and you are asked to rate how frequently or infrequently you have had these experiences. Please answer according to what really reflects your experiences, rather than what you think your experiences should be. Please treat each item separately from every other item.
+		</h1>
+		<h3>
+			<a href="welcome.jsp">Click here to take the survey... </a>			
+		</h3>
+	</div>
+</body>
+</html>

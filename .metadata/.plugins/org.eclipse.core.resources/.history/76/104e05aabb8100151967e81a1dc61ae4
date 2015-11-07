@@ -1,0 +1,39 @@
+<html>
+<form action="test.jsp">
+${message}
+  <head>
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+      google.load("visualization", "1", {packages:["corechart"]});
+      //google.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['ID', 'Purpose', 'Presence',{ role: 'style' }],
+          ['Chetan',   80,  167,'color: #99FFCC'],
+          ['',   79,  136,'color: #76A7FA'],
+          ['',   78,  184,'color: #76A7FA'],
+          ['',   72,  278,'color: #76A7FA'],
+          ['',   81,  200,'color: #76A7FA'],
+          ['',   72,  170,'color: #76A7FA'],
+          ['',   68,  477,'color: #76A7FA']
+        ]);
+
+        var options = {
+          //colorAxis: {colors: ['yellow', 'red']},
+		  //colorAxis: {colors: []}
+		  hAxis: {title: 'Purpose Score'},
+		  vAxis: {title: 'Presence Score'},
+		  bubble: {textStyle: {fontSize: 11}}
+        };
+
+        var chart = new google.visualization.BubbleChart(document.getElementById('chart_div'));
+        chart.draw(data, options);
+      }
+    </script>
+  </head>
+  <body>
+    <div id="chart_div" style="width: 900px; height: 500px;"></div>
+  </body>
+  <input type="submit" value="Submit" onclick=drawChart()>
+</form>
+</html>

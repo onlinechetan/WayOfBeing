@@ -1,0 +1,30 @@
+programatically populate chart
+http://stackoverflow.com/questions/12415689/how-to-dynamically-add-rows-columns-to-a-google-column-chart
+
+websites:
+http://stackoverflow.com/questions/6042550/svg-fill-color-transparency-alpha - opacity using svg
+https://developers.google.com/chart/interactive/docs/overlays#javascript2 image overlay
+https://developers.google.com/chart/interactive/docs/gallery/linechart
+https://developers.google.com/chart/interactive/docs/gallery/columnchart?hl=en
+http://www.w3schools.com/tags/ref_colorpicker.asp
+https://developers.google.com/chart/interactive/docs/gallery/bubblechart?hl=en#options
+http://chartkick.com/
+http://www.fusioncharts.com/dev/chart-guide/bubble-and-xy-charts/configuring-bubble-and-xy-charts.html
+http://cmaurer.github.io/angularjs-nvd3-directives/scatter.chart.html
+http://stackoverflow.com/questions/12415689/how-to-dynamically-add-rows-columns-to-a-google-column-chart
+
+
+todo: axis image at the back
+
+git project url:
+https://github.com/onlinechetan/SEIS635.git
+echo # SEIS635 >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/onlinechetan/SEIS635.git
+git push -u origin master
+
+git remote add origin https://github.com/onlinechetan/SEIS635.git
+git push -u origin master
+
